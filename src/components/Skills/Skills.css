@@ -1,0 +1,53 @@
+
+#skills {
+  background-image:url("../../assets/icons/main.png") ;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color:  #6d9696;
+  padding: 4rem 1.7em;
+}
+
+.cyan {
+  color: #6d9696;
+  font-weight: bolder;
+  font-size: larger;
+  margin-bottom: 10%;
+}
+.paragraph{
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-right: 20%;
+  color: #6d9696;
+  font-size: 1.6rem;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.tags-container {
+  width: 80%;
+  margin: 0.5em auto;
+}
+
+.tag {
+  display: inline-block;
+  border-radius: 3px;
+  padding: 0.2em 0.5em 0.3em;
+  border-radius: 2px;
+  background: #454e56;
+  color: #b2becd;
+  font-weight: 700;
+  margin: 0.5em 0.3em;
+  cursor: pointer;
+}
+
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.reveal.active{
+  transform: translateY(0px);
+  opacity: 1;
+}

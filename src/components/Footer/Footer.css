@@ -1,0 +1,23 @@
+.footer{
+    text-align: center;
+    color: #fffefe;
+    font-weight: 300;
+    background-color: #88afaf;
+    padding: 1.2rem;
+    letter-spacing: 0.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.3s;
+    
+}
+.footer a:hover{
+    color:  #35413e;
+}
+.footer i{
+    color:  #060707;
+}
